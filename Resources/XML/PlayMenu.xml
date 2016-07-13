@@ -1,0 +1,121 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Object name="PlayMenu"
+        >
+
+  <PlayMenu>
+
+  </PlayMenu>
+  
+  <SpriteComponent
+    texture ="options_menu.png"
+    size="1280, 720"
+    >
+
+  </SpriteComponent>
+  
+  
+
+  <Object name="RightButton1"
+          pos="500, 400"
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="106, 40"
+      type="default"
+      text="Next"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="RightButton2"
+        pos="1100, 400"
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="106, 40"
+      type="default"
+      text="Next"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="LeftButton1"
+        pos="100, 400"
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="106, 40"
+      type="default"
+      text="Prev"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="LeftButton2"
+        pos="700, 400"
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="106, 40"
+      type="default"
+      text="Prev"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+
+  <Object name="Play"
+         pos="590, 560"
+          >
+
+    <ButtonComponent
+      texture_focused ="simple_button_background_focused.png"
+      texture_unfocused ="simple_button_background.png"
+      size="100, 40"
+      type ="default"
+      text="Play"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+  
+</Object>

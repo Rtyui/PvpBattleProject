@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<Object
+  enabled="1"
+  name="mi-a iesit"
+  pos="100, 100"
+  >
+
+  <SpriteComponent>
+    
+  </SpriteComponent>
+  
+</Object>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<Object name="HpBar">
+  <PlayerHpBar
+    avatar_texture="avatar_warrior.png"
+    frame_texture="frame.png"
+    green_bar_texture="green_bar.png"
+    avatar_offset="20, 20"
+    bar_offset="4, 102"
+      >
+
+  </PlayerHpBar>
+</Object>

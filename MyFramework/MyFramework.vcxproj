@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\App.cpp" />
+    <ClCompile Include="..\Src\Console\ConsoleCommandsHandler.cpp" />
+    <ClCompile Include="..\Src\Console\ConsoleComponent.cpp" />
+    <ClCompile Include="..\Src\Console\ConsoleInputHandler.cpp" />
+    <ClCompile Include="..\Src\Factory\ComponentCreator.cpp" />
+    <ClCompile Include="..\Src\Factory\ComponentCreatorImpl.cpp" />
+    <ClCompile Include="..\Src\Factory\ComponentFactory.cpp" />
+    <ClCompile Include="..\Src\Helpers\Helpers.cpp" />
+    <ClCompile Include="..\Src\Helpers\RNG.cpp" />
+    <ClCompile Include="..\Src\Input\Input.cpp" />
+    <ClCompile Include="..\Src\Logic\Assassin.cpp" />
+    <ClCompile Include="..\Src\Logic\AssassinMeleeAttackSpell.cpp" />
+    <ClCompile Include="..\Src\Logic\Blink.cpp" />
+    <ClCompile Include="..\Src\Logic\Character.cpp" />
+    <ClCompile Include="..\Src\Logic\Daggerstorm.cpp" />
+    <ClCompile Include="..\Src\Logic\Dash.cpp" />
+    <ClCompile Include="..\Src\Logic\Disorient.cpp" />
+    <ClCompile Include="..\Src\Logic\DisorientEffect.cpp" />
+    <ClCompile Include="..\Src\Logic\DotEffect.cpp" />
+    <ClCompile Include="..\Src\Logic\Effect.cpp" />
+    <ClCompile Include="..\Src\Logic\FrozenOrb.cpp" />
+    <ClCompile Include="..\Src\Logic\HealBomb.cpp" />
+    <ClCompile Include="..\Src\Logic\RangedAttackSpell.cpp" />
+    <ClCompile Include="..\Src\Logic\SlowEffect.cpp" />
+    <ClCompile Include="..\Src\Logic\Spell.cpp" />
+    <ClCompile Include="..\Src\Logic\StunEffect.cpp" />
+    <ClCompile Include="..\Src\Logic\Warrior.cpp" />
+    <ClCompile Include="..\Src\Logic\WarriorMeleeAttackSpell.cpp" />
+    <ClCompile Include="..\Src\Logic\Wizard.cpp" />
+    <ClCompile Include="..\Src\Main.cpp" />
+    <ClCompile Include="..\Src\Menus\ControlsMenu.cpp" />
+    <ClCompile Include="..\Src\Menus\GamePausedMenu.cpp" />
+    <ClCompile Include="..\Src\Menus\MainGame.cpp" />
+    <ClCompile Include="..\Src\Menus\MainMenu.cpp" />
+    <ClCompile Include="..\Src\Menus\MenuHandler.cpp" />
+    <ClCompile Include="..\Src\Menus\OptionsManager.cpp" />
+    <ClCompile Include="..\Src\Menus\OptionsMenu.cpp" />
+    <ClCompile Include="..\Src\Menus\PlayMenu.cpp" />
+    <ClCompile Include="..\Src\Particles\ExplosionTypeGenerator.cpp" />
+    <ClCompile Include="..\Src\Particles\FireTypeGenerator.cpp" />
+    <ClCompile Include="..\Src\Particles\Particle.cpp" />
+    <ClCompile Include="..\Src\Particles\ParticleContainer.cpp" />
+    <ClCompile Include="..\Src\Particles\ParticleEvolver.cpp" />
+    <ClCompile Include="..\Src\Particles\ParticleGenerator.cpp" />
+    <ClCompile Include="..\Src\Particles\ParticlePhysics.cpp" />
+    <ClCompile Include="..\Src\Particles\ParticleSystemComponent.cpp" />
+    <ClCompile Include="..\Src\Physics\Physics.cpp" />
+    <ClCompile Include="..\Src\Physics\Shapes\Shape.cpp" />
+    <ClCompile Include="..\Src\Physics\Shapes\ShapeRectangle.cpp" />
+    <ClCompile Include="..\Src\Scene\ButtonComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\CheckboxComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\ColliderComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\Component.cpp" />
+    <ClCompile Include="..\Src\Scene\EditableTextBox.cpp" />
+    <ClCompile Include="..\Src\Scene\Object.cpp" />
+    <ClCompile Include="..\Src\Scene\ObjectHelpers.cpp" />
+    <ClCompile Include="..\Src\Scene\Player\CharacterComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\Player\PlayerHpBar.cpp" />
+    <ClCompile Include="..\Src\Scene\Player\PlayerMovement.cpp" />
+    <ClCompile Include="..\Src\Scene\Scene.cpp" />
+    <ClCompile Include="..\Src\Scene\Spells\DashComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\Spells\ProjectileComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\Spells\SpellFeedbackComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\SpriteComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\TextComponent.cpp" />
+    <ClCompile Include="..\Src\Scene\TextHighlighterComponent.cpp" />
+    <ClCompile Include="..\Src\STAT.cpp" />
+    <ClCompile Include="..\Src\tinyxml\tinystr.cpp" />
+    <ClCompile Include="..\Src\tinyxml\tinyxml.cpp" />
+    <ClCompile Include="..\Src\tinyxml\tinyxmlerror.cpp" />
+    <ClCompile Include="..\Src\tinyxml\tinyxmlparser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\App.h" />
+    <ClInclude Include="..\Src\Console\ConsoleCommandsHandler.h" />
+    <ClInclude Include="..\Src\Console\ConsoleComponent.h" />
+    <ClInclude Include="..\Src\Console\ConsoleInputHandler.h" />
+    <ClInclude Include="..\Src\Factory\ComponentCreator.h" />
+    <ClInclude Include="..\Src\Factory\ComponentCreatorImpl.h" />
+    <ClInclude Include="..\Src\Factory\ComponentFactory.h" />
+    <ClInclude Include="..\Src\Helpers\Helpers.h" />
+    <ClInclude Include="..\Src\Helpers\RNG.h" />
+    <ClInclude Include="..\Src\Input\Input.h" />
+    <ClInclude Include="..\Src\Logic\Assassin.h" />
+    <ClInclude Include="..\Src\Logic\AssassinMeleeAttackSpell.h" />
+    <ClInclude Include="..\Src\Logic\Blink.h" />
+    <ClInclude Include="..\Src\Logic\Character.h" />
+    <ClInclude Include="..\Src\Logic\Daggerstorm.h" />
+    <ClInclude Include="..\Src\Logic\Dash.h" />
+    <ClInclude Include="..\Src\Logic\Disorient.h" />
+    <ClInclude Include="..\Src\Logic\DisorientEffect.h" />
+    <ClInclude Include="..\Src\Logic\DotEffect.h" />
+    <ClInclude Include="..\Src\Logic\Effect.h" />
+    <ClInclude Include="..\Src\Logic\FrozenOrb.h" />
+    <ClInclude Include="..\Src\Logic\HealBomb.h" />
+    <ClInclude Include="..\Src\Logic\RangedAttackSpell.h" />
+    <ClInclude Include="..\Src\Logic\SlowEffect.h" />
+    <ClInclude Include="..\Src\Logic\Spell.h" />
+    <ClInclude Include="..\Src\Logic\StunEffect.h" />
+    <ClInclude Include="..\Src\Logic\Warrior.h" />
+    <ClInclude Include="..\Src\Logic\WarriorMeleeAttackSpell.h" />
+    <ClInclude Include="..\Src\Logic\Wizard.h" />
+    <ClInclude Include="..\Src\Menus\ControlsMenu.h" />
+    <ClInclude Include="..\Src\Menus\GamePausedMenu.h" />
+    <ClInclude Include="..\Src\Menus\MainGame.h" />
+    <ClInclude Include="..\Src\Menus\MainMenu.h" />
+    <ClInclude Include="..\Src\Menus\MenuHandler.h" />
+    <ClInclude Include="..\Src\Menus\OptionsManager.h" />
+    <ClInclude Include="..\Src\Menus\OptionsMenu.h" />
+    <ClInclude Include="..\Src\Menus\PlayMenu.h" />
+    <ClInclude Include="..\Src\Particles\ExplosionTypeGenerator.h" />
+    <ClInclude Include="..\Src\Particles\FireTypeGenerator.h" />
+    <ClInclude Include="..\Src\Particles\Particle.h" />
+    <ClInclude Include="..\Src\Particles\ParticleContainer.h" />
+    <ClInclude Include="..\Src\Particles\ParticleEvolver.h" />
+    <ClInclude Include="..\Src\Particles\ParticleGenerator.h" />
+    <ClInclude Include="..\Src\Particles\ParticlePhysics.h" />
+    <ClInclude Include="..\Src\Particles\ParticleSystemComponent.h" />
+    <ClInclude Include="..\Src\Physics\Physics.h" />
+    <ClInclude Include="..\Src\Physics\Shapes\Shape.h" />
+    <ClInclude Include="..\Src\Physics\Shapes\ShapeRectangle.h" />
+    <ClInclude Include="..\Src\Scene\ButtonComponent.h" />
+    <ClInclude Include="..\Src\Scene\CheckboxComponent.h" />
+    <ClInclude Include="..\Src\Scene\ColliderComponent.h" />
+    <ClInclude Include="..\Src\Scene\Component.h" />
+    <ClInclude Include="..\Src\Scene\EditableTextBox.h" />
+    <ClInclude Include="..\Src\Scene\Object.h" />
+    <ClInclude Include="..\Src\Scene\ObjectHelpers.h" />
+    <ClInclude Include="..\Src\Scene\Player\CharacterComponent.h" />
+    <ClInclude Include="..\Src\Scene\Player\PlayerHpBar.h" />
+    <ClInclude Include="..\Src\Scene\Player\PlayerMovement.h" />
+    <ClInclude Include="..\Src\Scene\Scene.h" />
+    <ClInclude Include="..\Src\Scene\Spells\DashComponent.h" />
+    <ClInclude Include="..\Src\Scene\Spells\ProjectileComponent.h" />
+    <ClInclude Include="..\Src\Scene\Spells\SpellFeedbackComponent.h" />
+    <ClInclude Include="..\Src\Scene\SpriteComponent.h" />
+    <ClInclude Include="..\Src\Scene\TextComponent.h" />
+    <ClInclude Include="..\Src\Scene\TextHighlighterComponent.h" />
+    <ClInclude Include="..\Src\STAT.h" />
+    <ClInclude Include="..\Src\stdincl.h" />
+    <ClInclude Include="..\Src\tinyxml\tinystr.h" />
+    <ClInclude Include="..\Src\tinyxml\tinyxml.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0D333CBD-B1B9-4AA5-ACFA-C28442426148}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>MyFramework</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\SFML-2.3.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SFML-2.3.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\SFML-2.3.1\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\SFML-2.3.1\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\SFML\include;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\tinyxml;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Spells;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Player;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics\Shapes;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Particles;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Menus;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Logic;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Input;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Helpers;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Factory;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Console;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sfml-graphics-d.lib;sfml-window-d.lib;sfml-main-d.lib;sfml-system-d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML\lib;C:\SFML\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\SFML\include;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\tinyxml;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Spells;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Player;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics\Shapes;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Particles;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Menus;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Logic;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Input;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Helpers;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Factory;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Console;D:\VisualStudioProjects\ProiectFacultate\MyFramework\Src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sfml-graphics.lib;sfml-window.lib;sfml-main.lib;sfml-system.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\SFML\lib;C:\PAUL\University\C++ libraries\SFML-2.3.1\lib</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,83 @@
+﻿Build started 17/05/2016 07:25:31.
+     1>Project "D:\VisualStudioProjects\ProiectFacultate\MyFramework\MyFramework\MyFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VisualStudio2013\VC\bin\CL.exe /c /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Spells /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Logic /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics\Shapes /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Player /IC:\SFML\include /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Console /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Factory /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Helpers /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Input /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Menus /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Particles /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\tinyxml /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Map /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Player /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Profiles /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Scene\Spells\SpellFeedbackComponent.cpp
+         SpellFeedbackComponent.cpp
+       Link:
+         D:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Debug\MyFramework.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\SFML\lib "sfml-graphics-d.lib" "sfml-window-d.lib" "sfml-main-d.lib" "sfml-system-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Debug\MyFramework.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Debug\MyFramework.lib" /MACHINE:X86 Debug\App.obj
+         Debug\ConsoleCommandsHandler.obj
+         Debug\ConsoleComponent.obj
+         Debug\ConsoleInputHandler.obj
+         Debug\ComponentCreator.obj
+         Debug\ComponentCreatorImpl.obj
+         Debug\ComponentFactory.obj
+         Debug\Helpers.obj
+         Debug\RNG.obj
+         Debug\Input.obj
+         Debug\Assassin.obj
+         Debug\AssassinMeleeAttackSpell.obj
+         Debug\Blink.obj
+         Debug\Character.obj
+         Debug\Daggerstorm.obj
+         Debug\Dash.obj
+         Debug\Disorient.obj
+         Debug\DisorientEffect.obj
+         Debug\DotEffect.obj
+         Debug\Effect.obj
+         Debug\FrozenOrb.obj
+         Debug\HealBomb.obj
+         Debug\RangedAttackSpell.obj
+         Debug\SlowEffect.obj
+         Debug\Spell.obj
+         Debug\StunEffect.obj
+         Debug\Warrior.obj
+         Debug\WarriorMeleeAttackSpell.obj
+         Debug\Wizard.obj
+         Debug\Main.obj
+         Debug\ControlsMenu.obj
+         Debug\GamePausedMenu.obj
+         Debug\MainGame.obj
+         Debug\MainMenu.obj
+         Debug\MenuHandler.obj
+         Debug\OptionsManager.obj
+         Debug\OptionsMenu.obj
+         Debug\PlayMenu.obj
+         Debug\ExplosionTypeGenerator.obj
+         Debug\FireTypeGenerator.obj
+         Debug\Particle.obj
+         Debug\ParticleContainer.obj
+         Debug\ParticleEvolver.obj
+         Debug\ParticleGenerator.obj
+         Debug\ParticlePhysics.obj
+         Debug\ParticleSystemComponent.obj
+         Debug\Physics.obj
+         Debug\Shape.obj
+         Debug\ShapeRectangle.obj
+         Debug\ButtonComponent.obj
+         Debug\CheckboxComponent.obj
+         Debug\ColliderComponent.obj
+         Debug\Component.obj
+         Debug\EditableTextBox.obj
+         Debug\Object.obj
+         Debug\ObjectHelpers.obj
+         Debug\CharacterComponent.obj
+         Debug\PlayerHpBar.obj
+         Debug\PlayerMovement.obj
+         Debug\Scene.obj
+         Debug\DashComponent.obj
+         Debug\ProjectileComponent.obj
+         Debug\SpellFeedbackComponent.obj
+         Debug\SpriteComponent.obj
+         Debug\TextComponent.obj
+         Debug\TextHighlighterComponent.obj
+         Debug\STAT.obj
+         Debug\tinystr.obj
+         Debug\tinyxml.obj
+         Debug\tinyxmlerror.obj
+         Debug\tinyxmlparser.obj
+         MyFramework.vcxproj -> D:\VisualStudioProjects\ProiectFacultate\MyFramework\Debug\MyFramework.exe
+     1>Done Building Project "D:\VisualStudioProjects\ProiectFacultate\MyFramework\MyFramework\MyFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34

@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Object name="OptionsMenu"
+        >
+
+  <OptionsMenu>
+
+  </OptionsMenu>
+  <SpriteComponent
+    texture ="options_menu.png"
+    size="1280, 720"
+    >
+
+  </SpriteComponent>
+
+  <Object name="FullscreenCheckbox"
+    pos="535, 200">
+
+    <CheckboxComponent
+      texture_focused="button_checkbox_focused.png"
+      texture_unfocused="button_checkbox_unfocused.png"
+      texture_check="button_checkbox_check.png"
+      size="32, 32"
+     >
+    </CheckboxComponent>
+
+    <Object name="FullScreenTextHolder"
+            pos="40, 0"
+        >
+      <TextComponent
+      text="Fullscreen"
+      font="bellota.otf"
+      font_size="25"
+      color="104, 104, 104"
+      >
+      
+      </TextComponent> 
+    </Object>
+  </Object>
+
+  <Object name="ControlsMenuChange" pos ="535, 300">
+    <ButtonComponent
+     texture_focused="simple_button_background_focused.png"
+     texture_unfocused="simple_button_background.png"
+     size="106, 40"
+     type="menu_changer"
+     next_menu="ControlsMenu"
+     text="Controls"
+     text_font="bellota.otf"
+     text_size="25"
+     text_color="100, 100, 100"
+     text_highlight_color="10, 10, 255"
+     has_textures="1"
+     text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="ApplyButton"
+          pos="170, 520" 
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="106, 40"
+      type="default"
+      text="Apply"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="100, 100, 100"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+      
+    </ButtonComponent>
+  </Object>
+ 
+
+  <Object name="CancelButton"
+          pos="970, 520"
+          >
+    <ButtonComponent
+      texture_focused="simple_button_background_focused.png"
+      texture_unfocused="simple_button_background.png"
+      size="120, 40"
+      type="default"
+      text="Cancel"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="100, 100, 100"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+</Object>

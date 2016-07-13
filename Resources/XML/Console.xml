@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<Object name="Console" enabled="0">
+
+  <SpriteComponent
+    texture ="console_screen.png"
+    >
+  </SpriteComponent>
+
+  <ConsoleComponent
+    line_size="20"
+    text_size="15"
+    text_font="arial.ttf"
+    >
+    
+  </ConsoleComponent>
+
+</Object>

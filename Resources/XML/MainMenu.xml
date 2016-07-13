@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<Object name="MainMenu" rotation="0">
+
+  <SpriteComponent
+    texture ="menu_background.png"
+    size="1280, 720"
+    >
+  </SpriteComponent>
+
+  <Object name="Play"
+        pos="570, 240"
+          >
+
+    <ButtonComponent
+      texture_focused ="simple_button_background_focused.png"
+      texture_unfocused ="simple_button_background.png"
+      next_menu ="PlayMenu"
+      size="140, 70"
+      type ="menu_changer"
+      text="Play"
+      text_font="bellota.otf"
+      text_size="40"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="OptionsButton"
+          pos="575.5, 350"
+          >
+    <ButtonComponent 
+      texture_focused ="simple_button_background_focused.png"
+      texture_unfocused ="simple_button_background.png"
+      next_menu ="OptionsMenu"
+      size="129, 40"
+      type ="menu_changer"
+      text="Options"
+      text_font="bellota.otf"
+      text_size="25"
+      text_color="200, 200, 0"
+      text_highlight_color="10, 10, 255"
+      has_textures="1"
+      text_highlights="1"
+      >
+    
+    </ButtonComponent>
+  </Object>
+
+  <Object name="ExitButton"
+          pos="597.5, 400"
+          >
+    <ButtonComponent 
+     texture_focused ="simple_button_background_focused.png"
+     texture_unfocused ="simple_button_background.png"
+     size="85, 40"
+     type ="exit"
+     text="Exit"
+     text_font="bellota.otf"
+     text_size="25"
+     text_color="200, 200, 0"
+     text_highlight_color="10, 10, 255"
+     has_textures="1"
+     text_highlights="1"
+      >
+      
+    </ButtonComponent>
+  </Object>
+
+  <Object name="ParticleTest" pos="225, 190">
+    <ParticleSystemComponent
+      generator_type="fire"
+      texture="flame_particle_pixels.png"
+      >
+      
+      <Generator
+        per_second="80"
+        burst="0"
+        particle_lifetime="1.5"
+        generating_range="40, 10"
+        >
+      </Generator>
+
+      <Physics
+        gravity="-80"
+        >
+      </Physics>
+
+      <Evolver
+        evol_red1="0, 200"
+        evol_red2="1, 200"
+        
+        evol_green1="0, 200"
+        evol_green2="1, 0"
+        
+        evol_blue1="0, 0"
+        evol_blue2="1, 0"
+        
+        evol_alpha1="0, 100"
+        evol_alpha2="0.8, 100"
+        evol_alpha3="1, 0"
+        
+        evol_scaleX1="0, 0.4"
+        evol_scaleX2="0.6, 0.4"
+        evol_scaleX3="1, 0"
+        
+        evol_scaleY1="0, 0.7"
+        evol_scaleY2="0.6, 0.7"
+        evol_scaleY3="1, 0"
+        
+        >
+      </Evolver>
+      
+    </ParticleSystemComponent>
+  </Object>
+  
+  <Object name="ParticleTest" pos="1055, 190">
+    <ParticleSystemComponent
+      generator_type="fire"
+      texture="flame_particle_pixels.png"
+      >
+
+      <Generator
+        per_second="80"
+        burst="0"
+        particle_lifetime="1.5"
+        generating_range="40, 10"
+        >
+      </Generator>
+
+      <Physics
+        gravity="-80"
+        >
+      </Physics>
+
+      <Evolver
+        evol_red1="0, 200"
+        evol_red2="1, 200"
+        
+        evol_green1="0, 200"
+        evol_green2="1, 0"
+        
+        evol_blue1="0, 0"
+        evol_blue2="1, 0"
+        
+        evol_alpha1="0, 100"
+        evol_alpha2="0.8, 100"
+        evol_alpha3="1, 0"
+        
+        evol_scaleX1="0, 0.5"
+        evol_scaleX2="0.6, 0.5"
+        evol_scaleX3="1, 0"
+        
+        evol_scaleY1="0, 0.7"
+        evol_scaleY2="0.6, 0.7"
+        evol_scaleY3="1, 0"
+        
+        >
+      </Evolver>
+
+    </ParticleSystemComponent>
+  </Object>
+  
+  <MainMenu>
+
+  </MainMenu>
+
+</Object>

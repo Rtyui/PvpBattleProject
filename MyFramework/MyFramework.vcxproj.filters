@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\tinyxml">
+      <UniqueIdentifier>{9ff96af4-9033-4ae9-b361-61ab37844570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene">
+      <UniqueIdentifier>{79e64cb9-a507-4b8f-9159-1d2f027abbcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factory">
+      <UniqueIdentifier>{bafdc29e-2d00-46c2-8dce-377d07fd5b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Menus">
+      <UniqueIdentifier>{0e6177bd-6db8-493d-8630-4ef53e1bb6ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Input">
+      <UniqueIdentifier>{76fea396-90fe-4ab3-8436-da78e7b790dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Console">
+      <UniqueIdentifier>{b4050def-91b1-4272-96b0-45390246a6e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Helpers">
+      <UniqueIdentifier>{76f35b6b-78bf-44ae-bb4f-dc8010986a3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles">
+      <UniqueIdentifier>{66c4da83-04ac-4e37-acb4-f0e53141d23c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Player">
+      <UniqueIdentifier>{34ac97a9-6021-4ec1-af46-c266321e74b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics">
+      <UniqueIdentifier>{b620f52f-4453-422f-b02b-7331fc5572a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Physics\Shapes">
+      <UniqueIdentifier>{d6bce1c9-81b0-4002-a6b5-862ce7f4cffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{b7f6f120-34e8-4176-b5bf-71a375f95f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scene\Spells">
+      <UniqueIdentifier>{1a18b7da-67fe-4e88-8a85-fd2b899c28f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\App.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\tinyxml\tinystr.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\tinyxml\tinyxml.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\tinyxml\tinyxmlerror.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\tinyxml\tinyxmlparser.cpp">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Component.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Object.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Scene.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\SpriteComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\ObjectHelpers.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Factory\ComponentFactory.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Factory\ComponentCreatorImpl.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Factory\ComponentCreator.cpp">
+      <Filter>Source Files\Factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\TextComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\MainMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\MainGame.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\MenuHandler.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Input\Input.cpp">
+      <Filter>Source Files\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\ButtonComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\OptionsMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\GamePausedMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Console\ConsoleComponent.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Console\ConsoleInputHandler.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Console\ConsoleCommandsHandler.cpp">
+      <Filter>Source Files\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\OptionsManager.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\CheckboxComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Helpers\Helpers.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Helpers\RNG.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\STAT.cpp">
+      <Filter>Source Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\EditableTextBox.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\TextHighlighterComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\Particle.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ParticleGenerator.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ExplosionTypeGenerator.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ParticleSystemComponent.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ParticleContainer.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ParticlePhysics.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\FireTypeGenerator.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Particles\ParticleEvolver.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Player\PlayerMovement.cpp">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\ColliderComponent.cpp">
+      <Filter>Source Files\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Physics\Shapes\Shape.cpp">
+      <Filter>Source Files\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Physics\Shapes\ShapeRectangle.cpp">
+      <Filter>Source Files\Physics\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Physics\Physics.cpp">
+      <Filter>Source Files\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Player\PlayerHpBar.cpp">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\ControlsMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Player\CharacterComponent.cpp">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Assassin.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\AssassinMeleeAttackSpell.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\RangedAttackSpell.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Spell.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Warrior.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\WarriorMeleeAttackSpell.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Wizard.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Character.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Spells\ProjectileComponent.cpp">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Effect.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\SlowEffect.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\HealBomb.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\DotEffect.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\StunEffect.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Daggerstorm.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Spells\DashComponent.cpp">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Dash.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Menus\PlayMenu.cpp">
+      <Filter>Source Files\Menus</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\FrozenOrb.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Blink.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Disorient.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\DisorientEffect.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Scene\Spells\SpellFeedbackComponent.cpp">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\App.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\stdincl.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\tinyxml\tinystr.h">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\tinyxml\tinyxml.h">
+      <Filter>Source Files\tinyxml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Component.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Object.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Scene.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\SpriteComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\ObjectHelpers.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Factory\ComponentFactory.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Factory\ComponentCreatorImpl.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Factory\ComponentCreator.h">
+      <Filter>Source Files\Factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\TextComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\MainMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\MainGame.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\MenuHandler.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\Input.h">
+      <Filter>Source Files\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\ButtonComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\OptionsMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\GamePausedMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Console\ConsoleComponent.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Console\ConsoleInputHandler.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Console\ConsoleCommandsHandler.h">
+      <Filter>Source Files\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\OptionsManager.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\CheckboxComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Helpers\Helpers.h">
+      <Filter>Source Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Helpers\RNG.h">
+      <Filter>Source Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\STAT.h">
+      <Filter>Source Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\EditableTextBox.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\TextHighlighterComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\Particle.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ParticleGenerator.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ExplosionTypeGenerator.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ParticleSystemComponent.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ParticleContainer.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ParticlePhysics.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\FireTypeGenerator.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Particles\ParticleEvolver.h">
+      <Filter>Source Files\Particles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Player\PlayerMovement.h">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\ColliderComponent.h">
+      <Filter>Source Files\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Physics\Shapes\Shape.h">
+      <Filter>Source Files\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Physics\Shapes\ShapeRectangle.h">
+      <Filter>Source Files\Physics\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Physics\Physics.h">
+      <Filter>Source Files\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Player\PlayerHpBar.h">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\ControlsMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Player\CharacterComponent.h">
+      <Filter>Source Files\Scene\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Assassin.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\AssassinMeleeAttackSpell.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Character.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\RangedAttackSpell.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Spell.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Warrior.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\WarriorMeleeAttackSpell.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Wizard.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Spells\ProjectileComponent.h">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Effect.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\SlowEffect.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\HealBomb.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\DotEffect.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\StunEffect.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Daggerstorm.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Spells\DashComponent.h">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Dash.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Menus\PlayMenu.h">
+      <Filter>Source Files\Menus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\FrozenOrb.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Blink.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Disorient.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\DisorientEffect.h">
+      <Filter>Source Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Scene\Spells\SpellFeedbackComponent.h">
+      <Filter>Source Files\Scene\Spells</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

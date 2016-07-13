@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Object name="ControlsMenu">
+
+  <ControlsMenu>
+
+  </ControlsMenu>
+  
+  <SpriteComponent
+    texture ="options_menu.png"
+    size="1280, 720"
+    >
+  </SpriteComponent>
+
+  <Object name="ControlsMenuChange" pos ="535, 300">
+    <ButtonComponent
+     texture_focused="simple_button_background_focused.png"
+     texture_unfocused="simple_button_background.png"
+     size="106, 40"
+     type="menu_changer"
+     next_menu="OptionsMenu"
+     text="Back"
+     text_font="bellota.otf"
+     text_size="25"
+     text_color="100, 100, 100"
+     text_highlight_color="10, 10, 255"
+     has_textures="1"
+     text_highlights="1"
+      >
+
+    </ButtonComponent>
+  </Object>
+
+  <Object name="Player1" pos="100, 50">
+    <TextComponent
+      font ="bellota.otf"
+      text ="Player1"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Up_Player1" pos="130, 80">
+    <TextComponent
+      font ="bellota.otf"
+      text ="UP"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Up_Player1" pos="180, 80">
+    <TextComponent
+      font ="bellota.otf"
+      text ="ARROW_UP"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Left_Player1" pos="130, 120">
+    <TextComponent
+      font ="bellota.otf"
+      text ="LEFT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Left_Player1" pos="180, 120">
+    <TextComponent
+      font ="bellota.otf"
+      text ="ARROW_LEFT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Right_Player1" pos="130, 160">
+    <TextComponent
+      font ="bellota.otf"
+      text ="RIGHT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Right_Player1" pos="150, 160">
+    <TextComponent
+      font ="bellota.otf"
+      text ="ARROW_RIGHT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Spell1_Player1" pos="130, 200">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL1"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell1_Player1" pos="180, 200">
+    <TextComponent
+      font ="bellota.otf"
+      text ="1"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+
+  <Object name="Spell2_Player1" pos="130, 240">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL2"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell2_Player1" pos="180, 240">
+    <TextComponent
+      font ="bellota.otf"
+      text ="2"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+
+  <Object name="Spell3_Player1" pos="130, 280">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL3"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell3_Player1" pos="180, 280">
+    <TextComponent
+      font ="bellota.otf"
+      text ="3"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Player2" pos="400, 50">
+    <TextComponent
+      font ="bellota.otf"
+      text ="Player2"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Up_Player2" pos="430, 80">
+    <TextComponent
+      font ="bellota.otf"
+      text ="UP"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Up_Player2" pos="450, 80">
+    <TextComponent
+      font ="bellota.otf"
+      text ="W"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Left_Player2" pos="430, 120">
+    <TextComponent
+      font ="bellota.otf"
+      text ="LEFT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Left_Player2" pos="480, 120">
+    <TextComponent
+      font ="bellota.otf"
+      text ="A"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Right_Player2" pos="430, 160">
+    <TextComponent
+      font ="bellota.otf"
+      text ="RIGHT"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Right_Player2" pos="480, 160">
+    <TextComponent
+      font ="bellota.otf"
+      text ="D"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Spell1_Player2" pos="430, 200">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL1"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell1_Player2" pos="480, 200">
+    <TextComponent
+      font ="bellota.otf"
+      text ="F"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+
+  <Object name="Spell2_Player2" pos="430, 240">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL2"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell2_Player2" pos="480, 240">
+    <TextComponent
+      font ="bellota.otf"
+      text ="G"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+
+  <Object name="Spell3_Player2" pos="430, 280">
+    <TextComponent
+      font ="bellota.otf"
+      text ="SPELL3"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+
+  <Object name="Key_Spell3_Player2" pos="480, 280">
+    <TextComponent
+      font ="bellota.otf"
+      text ="H"
+      font_size ="25"
+      color ="200, 200, 0"
+      alpha ="255"
+    >
+    </TextComponent>
+  </Object>
+  
+</Object>

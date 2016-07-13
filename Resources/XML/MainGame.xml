@@ -1,0 +1,204 @@
+<?xml version='1.0' encoding='us-ascii'?>
+
+<!-- "384, 450" "896, 420"-->
+<Object name="MainGame">
+
+  <SpriteComponent
+    texture ="cave_background.png"
+    size="1280, 720"
+    >
+  </SpriteComponent>
+ 
+  <Object pos ="0, 670" name="platform1">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="420, 50"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="420, 50"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="420, 670" name="platform2">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="420, 50"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="420, 50"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="840, 670" name="platform3">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="460, 50"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="460, 50"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="256, 530" name="platform4">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="256, 30"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="256, 30"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="768, 530" name="platform5">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="256, 30"
+      static="1"
+    >
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="256, 30"
+    >
+    </SpriteComponent>
+  </Object>  
+  
+  <Object pos ="420, 360" name="platform6">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="420, 30"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="420, 30"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="120, 200" name="platform7">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="300, 30"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="300, 30"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="540, 200" name="platform8">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="300, 30"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="300, 30"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  <Object pos ="940, 200" name="platform9">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="300, 30"
+      static="1"
+    >
+
+    </ColliderComponent>
+
+    <SpriteComponent
+    texture ="cave_platform.png"
+    size="300, 30"
+    >
+    </SpriteComponent>
+  </Object>
+  
+  
+  <Object pos ="-300, -300" name="platform10">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="300, 1320"
+      static="1"
+    >
+    </ColliderComponent>
+  
+  </Object>
+  
+  <Object pos ="1280, -300" name="platform11">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="300, 1320"
+      static="1"
+    >
+    </ColliderComponent>
+  
+  </Object>
+  
+  <Object pos ="0, -300" name="platform12">
+
+    <ColliderComponent
+      shape="rectangle"
+      size="1280, 300"
+      static="1"
+    >
+    </ColliderComponent>
+  
+  </Object>
+    
+  
+  
+  <MainGame>
+    
+  </MainGame>
+
+</Object>

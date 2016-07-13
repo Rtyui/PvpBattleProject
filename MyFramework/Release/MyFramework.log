@@ -1,0 +1,105 @@
+﻿Build started 27/05/2016 17:18:32.
+     1>Project "D:\VisualStudioProjects\ProiectFacultate\MyFramework\MyFramework\MyFramework.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VisualStudio2013\VC\bin\CL.exe /c /IC:\SFML\include /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\tinyxml /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Spells /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene\Player /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Scene /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics\Shapes /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Physics /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Particles /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Menus /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Logic /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Input /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Helpers /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Factory /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src\Console /ID:\VisualStudioProjects\ProiectFacultate\MyFramework\Src /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\Src\Logic\Blink.cpp ..\Src\Logic\Daggerstorm.cpp ..\Src\Logic\FrozenOrb.cpp ..\Src\Logic\HealBomb.cpp ..\Src\Logic\RangedAttackSpell.cpp ..\Src\Scene\ColliderComponent.cpp ..\Src\Scene\Spells\ProjectileComponent.cpp
+         Blink.cpp
+     1>..\Src\Logic\Blink.cpp(25): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Daggerstorm.cpp
+     1>..\Src\Logic\Daggerstorm.cpp(56): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\Daggerstorm.cpp(78): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\Daggerstorm.cpp(93): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\Daggerstorm.cpp(96): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\Daggerstorm.cpp(97): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         FrozenOrb.cpp
+     1>..\Src\Logic\FrozenOrb.cpp(21): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>..\Src\Logic\FrozenOrb.cpp(30): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\FrozenOrb.cpp(48): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\FrozenOrb.cpp(77): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         HealBomb.cpp
+     1>..\Src\Logic\HealBomb.cpp(41): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\HealBomb.cpp(45): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         RangedAttackSpell.cpp
+     1>..\Src\Logic\RangedAttackSpell.cpp(35): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>..\Src\Logic\RangedAttackSpell.cpp(39): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+         ColliderComponent.cpp
+         ProjectileComponent.cpp
+       Link:
+         D:\VisualStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Release\MyFramework.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\SFML\lib /LIBPATH:"C:\PAUL\University\C++ libraries\SFML-2.3.1\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-main.lib" "sfml-system.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Release\MyFramework.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VisualStudioProjects\ProiectFacultate\MyFramework\Release\MyFramework.lib" /MACHINE:X86 /SAFESEH Release\App.obj
+         Release\ConsoleCommandsHandler.obj
+         Release\ConsoleComponent.obj
+         Release\ConsoleInputHandler.obj
+         Release\ComponentCreator.obj
+         Release\ComponentCreatorImpl.obj
+         Release\ComponentFactory.obj
+         Release\Helpers.obj
+         Release\RNG.obj
+         Release\Input.obj
+         Release\Assassin.obj
+         Release\AssassinMeleeAttackSpell.obj
+         Release\Blink.obj
+         Release\Character.obj
+         Release\Daggerstorm.obj
+         Release\Dash.obj
+         Release\Disorient.obj
+         Release\DisorientEffect.obj
+         Release\DotEffect.obj
+         Release\Effect.obj
+         Release\FrozenOrb.obj
+         Release\HealBomb.obj
+         Release\RangedAttackSpell.obj
+         Release\SlowEffect.obj
+         Release\Spell.obj
+         Release\StunEffect.obj
+         Release\Warrior.obj
+         Release\WarriorMeleeAttackSpell.obj
+         Release\Wizard.obj
+         Release\Main.obj
+         Release\ControlsMenu.obj
+         Release\GamePausedMenu.obj
+         Release\MainGame.obj
+         Release\MainMenu.obj
+         Release\MenuHandler.obj
+         Release\OptionsManager.obj
+         Release\OptionsMenu.obj
+         Release\PlayMenu.obj
+         Release\ExplosionTypeGenerator.obj
+         Release\FireTypeGenerator.obj
+         Release\Particle.obj
+         Release\ParticleContainer.obj
+         Release\ParticleEvolver.obj
+         Release\ParticleGenerator.obj
+         Release\ParticlePhysics.obj
+         Release\ParticleSystemComponent.obj
+         Release\Physics.obj
+         Release\Shape.obj
+         Release\ShapeRectangle.obj
+         Release\ButtonComponent.obj
+         Release\CheckboxComponent.obj
+         Release\ColliderComponent.obj
+         Release\Component.obj
+         Release\EditableTextBox.obj
+         Release\Object.obj
+         Release\ObjectHelpers.obj
+         Release\CharacterComponent.obj
+         Release\PlayerHpBar.obj
+         Release\PlayerMovement.obj
+         Release\Scene.obj
+         Release\DashComponent.obj
+         Release\ProjectileComponent.obj
+         Release\SpellFeedbackComponent.obj
+         Release\SpriteComponent.obj
+         Release\TextComponent.obj
+         Release\TextHighlighterComponent.obj
+         Release\STAT.obj
+         Release\tinystr.obj
+         Release\tinyxml.obj
+         Release\tinyxmlerror.obj
+         Release\tinyxmlparser.obj
+         Generating code
+         Finished generating code
+         MyFramework.vcxproj -> D:\VisualStudioProjects\ProiectFacultate\MyFramework\Release\MyFramework.exe
+     1>Done Building Project "D:\VisualStudioProjects\ProiectFacultate\MyFramework\MyFramework\MyFramework.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.33

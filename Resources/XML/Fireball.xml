@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<Object name="ParticleTest">
+  <ParticleSystemComponent
+    generator_type="fire"
+    texture="flame_particle_pixels.png"
+      >
+
+    <Generator
+      per_second="80"
+      burst="0"
+      particle_lifetime="1.5"
+      generating_range="40, 10"
+        >
+    </Generator>
+
+    <Physics
+      gravity="-80"
+        >
+    </Physics>
+
+    <Evolver
+      evol_red1="0, 200"
+      evol_red2="1, 200"
+        
+      evol_green1="0, 200"
+      evol_green2="1, 0"
+        
+      evol_blue1="0, 0"
+      evol_blue2="1, 0"
+        
+      evol_alpha1="0, 100"
+      evol_alpha2="0.8, 100"
+      evol_alpha3="1, 0"
+        
+      evol_scaleX1="0, 0.4"
+      evol_scaleX2="0.6, 0.4"
+      evol_scaleX3="1, 0"
+        
+      evol_scaleY1="0, 0.7"
+      evol_scaleY2="0.6, 0.7"
+      evol_scaleY3="1, 0"
+        
+        >
+    </Evolver>
+
+  </ParticleSystemComponent>
+</Object>
